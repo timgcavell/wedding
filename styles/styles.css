@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-bg: #063440;
+  --clr-text: #d0cbeb;
+  --clr-accent: #e9a34e;
+  --clr-accent-text: #48455a;
+}
+
+body {
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: var(--clr-text);
+  background-color: var(--clr-bg);
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+}
+
+img {
+  /* width: 100%; */
+  /* height: 100%; */
+  object-fit: contain;
+  border-radius: 20px;
+  /* clip: rect(0px, 50px, 50px, 0px); */
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-link);
+  border-width: 0 0 1px 0;
+}
+
+nav a {
+  font-size: 2.5rem;
+  color: var(--clr-accent);
+}
+
+nav a:hover {
+  color: var(--clr-text);
+}
+
+nav a:focus {
+  text-decoration: dotted;
+}
+
+/* Grid placement */
+
+.grid {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2);
+  grid-auto-flow: row;
+  grid-auto-flow: column;
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.wedding-link {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.rsvp-link {
+  grid-row: 1;
+  grid-column: 4;
+}
+
+.travel-link {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.activities-link {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+.registry-link {
+  grid-row: 2;
+  grid-column: 5;
+}
+
+.image1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.image2 {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.image3 {
+  grid-row: 1;
+  grid-column: 5;
+}
+
+.image4 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.image5 {
+  grid-row: 2;
+  grid-column: 4;
+}
+
+@media only screen and (max-width: 800px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wedding-link {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  
+  .rsvp-link {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  
+  .travel-link {
+    grid-row: 3;
+    grid-column: 2;
+  }
+  
+  .activities-link {
+    grid-row: 4;
+    grid-column: 1;
+  }
+  
+  .registry-link {
+    grid-row: 5;
+    grid-column: 2;
+  }
+  
+  .image1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  
+  .image2 {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  
+  .image3 {
+    grid-row: 3;
+    grid-column: 1;
+  }
+  
+  .image4 {
+    grid-row: 4;
+    grid-column: 2;
+  }
+  
+  .image5 {
+    grid-row: 5;
+    grid-column: 1;
+  }
+}
