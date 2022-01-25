@@ -1,5 +1,3 @@
-import Head from "next/head";
-import { SITE_NAME } from "../lib/constants";
 import Header from "../components/header";
 import Card from "../components/card";
 
@@ -45,9 +43,6 @@ const attractions = [
 export default function Austin() {
   return (
     <>
-      <Head>
-        <title>{SITE_NAME}</title>
-      </Head>
       <Header />
       <main className="wrapper">
         <h3>Things to do</h3>
