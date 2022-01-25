@@ -39,7 +39,7 @@ export default function Lodging() {
           {hotels.map((hotel) => {
             return (
               <li key={hotel.name}>
-                <Card item={hotel} />
+                <Card item={hotel} linkText="Book Here" />
               </li>
             );
           })

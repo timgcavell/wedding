@@ -170,6 +170,8 @@ li {
 }
 
 .card {
+  display: flex;
+  flex-wrap: wrap;
   border: 3px solid var(--clr-accent-text);
   padding: 10px 10px 0px 10px;
   margin: 0px 0px 20px 0px;
@@ -177,17 +179,31 @@ li {
 }
 
 .card .name {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  /* margin-bottom: 10px; */
+  margin-right: 6px;
+}
+
+.card .link {
+  font-size: 0.7rem;
+  text-align: end;
+  border-radius: 10px;
+  background: var(--clr-accent-text);
+  padding: 5px;
+  line-height: 1.3rem;
+  text-transform: uppercase;
 }
 
 .card .name::after{
-  content: "↗";
-  font-size: 0.8rem;
-  border-radius: 10px;
-  background: #48455a;
-  position: absolute;
-  margin-inline-start: 4px;
-  padding: 5px 5px 7px 7px;
+  /* content: "↗"; */
+  /* content: ""; */
+  /* content: url('.  ./public/arrow.svg'); */
+  /* font-size: 0.8rem; */
+  /* border-radius: 10px; */
+  /* background: #48455a; */
+  /* position: absolute; */
+  /* margin-inline-start: 4px; */
+  /* padding: 5px 5px 7px 7px; */
 }
 
 .card p {
