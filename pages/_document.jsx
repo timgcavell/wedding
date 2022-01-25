@@ -1,9 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { SITE_NAME } from "../lib/constants";
-
-export const config = {
-  unstable_runtimeJS: false,
-};
+import Header from "../components/header";
 
 export default class MyDocument extends Document {
   render() {
@@ -16,10 +13,12 @@ export default class MyDocument extends Document {
             <meta name="description" content={SITE_NAME} />
           </Head>
           <body>
+            {/* <Header /> */}
             <Main />
             <NextScript />
           </body>
-          {/* <footer>🐕‍🦺</footer> */}
+          <hr />
+          <footer>🐕‍🦺</footer>
         </div>
       </Html>
     );
