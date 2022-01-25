@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import Header from "../components/header";
 import { SITE_NAME } from "../lib/constants";
+import Header from "../components/header";
 import hero from "../public/images/8.png";
 
 export default function Wedding() {

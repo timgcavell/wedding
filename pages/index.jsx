@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Header from "../components/header";
 import { SITE_NAME } from "../lib/constants";
-import glimmer from "../public/images/glimmer.png";
+import Header from "../components/header";
 import image1 from "../public/images/1.png";
 import image2 from "../public/images/2.png";
 import image3 from "../public/images/14.png";

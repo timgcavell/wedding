@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Header from "../components/header";
 import { SITE_NAME } from "../lib/constants";
+import Header from "../components/header";
 import Card from "../components/card";
 
 
