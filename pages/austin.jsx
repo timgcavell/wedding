@@ -1,6 +1,9 @@
 import Header from "../components/header";
 import Card from "../components/card";
 
+export const config = {
+  unstable_runtimeJS: false,
+};
 
 const attractions = [
   {

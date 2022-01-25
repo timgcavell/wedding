@@ -7,6 +7,10 @@ import image3 from "../public/images/14.png";
 import image5 from "../public/images/3.png";
 import image11 from "../public/images/21.png";
 
+export const config = {
+  unstable_runtimeJS: false,
+};
+
 export default function Index() {
   return (
     <>

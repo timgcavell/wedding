@@ -2,6 +2,10 @@ import Head from 'next/head'
 import { SITE_NAME } from "../lib/constants";
 import "../styles/styles.css";
 
+export const config = {
+  unstable_runtimeJS: false,
+};
+
 export default function App({ Component, pageProps }) {
   return (
     <>
