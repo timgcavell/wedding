@@ -36,11 +36,11 @@ export default function Lodging() {
               <li key={hotel.name}>
                 <Card item={hotel} linkText="Book Here" />
               </li>
-            );
+            )
           })
           }
         </ul>
       </main>
     </>
-  );
+  )
 }

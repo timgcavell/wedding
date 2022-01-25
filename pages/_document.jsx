@@ -14,6 +14,6 @@ export default class MyDocument extends Document {
           <footer>🐕‍🦺</footer>
         </div>
       </Html>
-    );
+    )
   }
 }

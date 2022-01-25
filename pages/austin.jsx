@@ -52,11 +52,11 @@ export default function Austin() {
               <li key={attraction.name}>
                 <Card item={attraction} />
               </li>
-            );
+            )
           })
           }
         </ul>
       </main>
     </>
-  );
+  )
 }

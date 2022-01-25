@@ -11,10 +11,8 @@ export default function Wedding() {
         <h4>Hotel Ella, Austin, TX</h4>
         <h4>November 19, 2022, 5pm</h4>
         <h4>Cocktail Attire</h4>
-        <div className="full-bleed">
-          <Image priority quality="30" src={hero} />
-        </div>
+        <div className="full-bleed"><Image priority quality="10" src={hero} /></div>
       </main>
     </>
-  );
+  )
 }
