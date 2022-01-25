@@ -36,7 +36,7 @@ const attractions = [
   {
     name: "🥾 Turkey Creek Trail",
     link: "https://www.alltrails.com/trail/us/texas/turkey-creek-trail",
-    description: "This hike is little bit further out but is easy to get to and a comfortable easy trail. If it’s rained recently, get ready to get your shoes wet..",
+    description: "This hike is a little bit further out but is easy to get to and a comfortable easy trail. If it’s rained recently, get ready to get your shoes wet..",
   },
 ]
 
