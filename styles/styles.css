@@ -44,10 +44,10 @@ nav a {
 }
 
 nav .container::before {
-  content: "";
-  background-image: url("../public/images/glimmer.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* content: ""; */
+  /* background-image: url("../public/images/glimmer.png"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
   /* position: absolute; */
   /* top: 0px; */
   /* right: 0px; */
@@ -91,6 +91,7 @@ header {
   justify-items: center;
   align-items: center;
   gap: 0px;
+  margin: 0px 6px;
 }
 
 header h1 {
@@ -156,6 +157,11 @@ nav {
   gap: 1rem;
   justify-items: center;
   align-items: center;
+}
+
+ul {
+  padding: 3px;
+  list-style-type: none;
 }
 
 li {
