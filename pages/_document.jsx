@@ -8,15 +8,13 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <div className="container">
-          <Head />
-          <body>
-            <Main />
-            <NextScript />
-          </body>
+        <Head />
+        <body>
+          <Main />
+          <NextScript />
           <hr />
           <footer>🐕‍🦺</footer>
-        </div>
+        </body>
       </Html>
     )
   }
