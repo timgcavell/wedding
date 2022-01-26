@@ -13,7 +13,7 @@ export default function RSVP() {
       <main className="wrapper">
         <h3>RSVP</h3>
         <h4>📫 Coming soon</h4>
-        <div className="full-bleed"><Image priority quality="10" src={hero} /></div>
+        <div className="full-bleed"><Image priority quality="1" src={hero} /></div>
       </main>
     </>
   )
