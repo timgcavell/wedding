@@ -19,9 +19,6 @@ body {
   background-color: var(--clr-bg);
   margin: 0 auto;
   letter-spacing: 0.2rem;
-  /* background-image: url("../public/images/glimmer_square.png"); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
 }
 
 a {
@@ -32,43 +29,10 @@ a {
 nav a {
   font-size: 2rem;
   color: var(--clr-text);
-  /* position: relative; */
-  /* z-index: 2000; */
-  /* top: 75px; */
-  /* right: -30px; */
-  /* text-decoration: underline var(--clr-accent-text) solid 2px; */
-  /* padding: 20px 20px 40px 20px; */
-  /* margin:0 auto 0 auto; */
-  /* padding: 0 0 0 0; */
-  /* margin: 0 0 0 -500px; */
-}
-
-nav .container::before {
-  /* content: ""; */
-  /* background-image: url("../public/images/glimmer.png"); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* position: absolute; */
-  /* top: 0px; */
-  /* right: 0px; */
-  /* bottom: 0px; */
-  /* left: 0px; */
-  /* width: 0px; */
-  /* height: 0px; */
-  /* padding: 50px 100px 50px 100px; */
-  /* margin: 0 -200px; */
-  /* opacity: 0.75; */
-  /* padding: 50px 50px 50px 50px; */
-  /* margin: 0 -500px 0 0; */
 }
 
 nav a:hover,
 nav a:active {
-  /* color: var(--clr-accent); */
-  /* text-decoration: none; */
-  /* background-image: url("../public/images/glimmer.png"); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
   transform: scale(5);
 }
 
@@ -170,8 +134,6 @@ li {
 }
 
 .card {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
   border: 3px solid var(--clr-accent-text);
   padding: 10px 10px 0px 10px;
   margin: 0px 0px 20px 0px;
@@ -192,18 +154,6 @@ li {
   padding: 5px;
   line-height: 1.3rem;
   text-transform: uppercase;
-}
-
-.card .name::after{
-  /* content: "↗"; */
-  /* content: ""; */
-  /* content: url('.  ./public/arrow.svg'); */
-  /* font-size: 0.8rem; */
-  /* border-radius: 10px; */
-  /* background: #48455a; */
-  /* position: absolute; */
-  /* margin-inline-start: 4px; */
-  /* padding: 5px 5px 7px 7px; */
 }
 
 .card p {
