@@ -9,6 +9,12 @@ module.exports = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/honeymoon",
+        destination: "https://www.zola.com/registry/maryandtimwedding",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };
