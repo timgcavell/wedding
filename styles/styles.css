@@ -161,6 +161,21 @@ li {
   line-height: 1.4rem;
 }
 
+.compact {
+  border: 3px solid var(--clr-accent-text);
+  padding: 8px 20px;
+  margin: 0px 0px 10px 0px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.compact:hover,
+.compact:active
+.compact:focus {
+  background: var(--clr-accent-text);
+}
+
 .wedding-link {
   grid-row: 1;
   grid-column: 2;

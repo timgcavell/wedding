@@ -1,10 +1,32 @@
-import Image from "next/image";
 import Header from "../components/header";
-import hero from "../public/images/12.jpeg";
+import Compact from "../components/compact";
 
 export const config = {
   unstable_runtimeJS: false,
 };
+
+const registries = [
+  {
+    name: "Zola",
+    link: "https://www.zola.com/registry/maryandtimwedding"
+  },
+  {
+    name: "CB2",
+    link: "https://www.cb2.com/gift-registry/tim-cavell-and-mary-gibson/r6498403"
+  },
+  {
+    name: "Crate and Barrel",
+    link: "https://www.crateandbarrel.com/gift-registry/tim-cavell-and-mary-gibson/r6516673"
+  },
+  {
+    name: "Williams Sonoma",
+    link: "https://www.williams-sonoma.com/registry/fkzp7pkh2v/registry-list.html"
+  },
+  {
+    name: "Amazon",
+    link: "https://www.amazon.com/wedding/share/maryandtimwedding"
+  },
+]
 
 export default function Wedding() {
   return (
@@ -12,8 +34,16 @@ export default function Wedding() {
       <Header />
       <main className="wrapper">
         <h3>Registry</h3>
-        <h4>🎁 Coming soon</h4>
-        <div className="full-bleed"><Image layout="responsive" priority src={hero} /></div>
+        <ul>
+          {registries.map((registry) => {
+            return (
+              <li key={registry.name}>
+                <Compact item={registry} />
+              </li>
+            )
+          })
+          }
+        </ul>
       </main>
     </>
   )
