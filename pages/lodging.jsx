@@ -8,7 +8,7 @@ export const config = {
 const hotels = [
   {
     name: "Hotel Ella",
-    link: "https://hotelella.com",
+    link: "https://be.synxis.com/?adult=2&arrive=2022-11-19&chain=19403&child=0&currency=USD&depart=2022-11-20&group=GibsonCavell&hotel=69982&level=hotel&locale=en-US&rooms=1",
     description: "Hotel Ella located just west of UT Campus and where the wedding will be held.",
   },
   {
