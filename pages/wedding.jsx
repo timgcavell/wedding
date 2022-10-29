@@ -7,16 +7,24 @@ export const config = {
 };
 
 export default function Wedding() {
-  return (
-    <>
-      <Header extraClassName={"mobile-hidden"} />
-      <main className="wrapper">
-        <h3>Ceremony</h3>
-        <h4>Hotel Ella, Austin, TX</h4>
-        <h4>November 19, 2022, 5pm</h4>
-        <h4>Formal</h4>
-        <div className="full-bleed"><Image layout="responsive" priority src={hero} /></div>
-      </main>
-    </>
-  )
+  return <>
+    <Header extraClassName={"mobile-hidden"} />
+    <main className="wrapper">
+      <h3>Ceremony</h3>
+      <h4>Hotel Ella, Austin, TX</h4>
+      <h4>November 19, 2022, 5pm</h4>
+      <h4>Formal</h4>
+      <div className="full-bleed">
+        <Image
+          priority
+          alt="A closeup of Mary and Tim’s hands showing Mary’s engagement ring"
+          src={hero}
+          sizes="100vw"
+          style={{
+            width: "100%",
+            height: "auto"
+          }} />
+      </div>
+    </main>
+  </>;
 }

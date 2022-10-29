@@ -111,6 +111,8 @@ hr {
 
 nav img {
   border-radius: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 nav {
@@ -171,8 +173,7 @@ li {
 }
 
 .compact:hover,
-.compact:active
-.compact:focus {
+.compact:active .compact:focus {
   background: var(--clr-accent-text);
 }
 
