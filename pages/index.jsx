@@ -28,26 +28,31 @@ export default function Index() {
           className="image1"
           priority
           quality="30"
+          alt="Mary and Tim looking at each other with fall leaves behind them"
           src={image1} />
         <Image
           className="image2"
           priority
           quality="30"
+          alt="Selfie of Mary and Tim in New York"
           src={image3} />
         <Image
           className="image3"
           priority
           quality="30"
+          alt="Mary and Tim and their dog Remi posing on a dock in front of the Austin skyline"
           src={image5} />
         <Image
           className="image4"
           priority
           quality="30"
+          alt="Mary and Tim and their dog Remi sitting on their backyard patio"
           src={image11} />
         <Image
           className="image5"
           priority
           quality="30"
+          alt="Mary and Tim posing with fall leaves behind them"
           src={image2} />
       </nav>
     </main>

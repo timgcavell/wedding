@@ -17,6 +17,7 @@ export default function Wedding() {
       <div className="full-bleed">
         <Image
           priority
+          alt="A closeup of Mary and Tim’s hands showing Mary’s engagement ring"
           src={hero}
           sizes="100vw"
           style={{
