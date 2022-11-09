@@ -13,7 +13,13 @@ export default function Wedding() {
       <h3>Ceremony</h3>
       <h4>Hotel Ella, Austin, TX</h4>
       <h4>November 19, 2022, 5pm</h4>
-      <h4>Formal</h4>
+      <br />
+      <br />
+      <br />
+      <br />
+      <h3>Rehearsal Dinner</h3>
+      <h4>Jacoby's Restaurant & Mercantile, Austin, TX</h4>
+      <h4>November 18, 2022, 6pm</h4>
       <div className="full-bleed">
         <Image
           priority
