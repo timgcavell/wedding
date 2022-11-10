@@ -12,7 +12,8 @@ export default function RSVP() {
       <Header />
       <main className="wrapper">
         <h3>RSVP</h3>
-        <h4>Sorry, RSVPs are closed. We can&apos;t wait to celebrate with you!</h4>
+        <h4>Sorry, RSVPs are closed.</h4>
+        <h4>We can&apos;t wait to celebrate with you!</h4>
         <div className="full-bleed">
         <Image
           priority

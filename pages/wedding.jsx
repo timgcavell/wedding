@@ -18,7 +18,7 @@ export default function Wedding() {
       <br />
       <br />
       <h3>Rehearsal Dinner</h3>
-      <h4>Jacoby&apos;s Restaurant & Mercantile, Austin, TX</h4>
+      <h4>Jacoby&apos;s Restaurant & Mercantile</h4>
       <h4>November 18, 2022, 6pm</h4>
       <div className="full-bleed">
         <Image
